@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<!-- 
+  in this hour I wanted to fill my linked .html pages with information
+  but I really could not do any work.
+  last night I had really high fever (39.5°), I finished hour 8 and right
+  now my head hurts really bad and I am exhausted. I can not focus on finishing hour 9.
+  today I am going to get tested for COVID-19. 
+  I hope you understand! 
+ -->
+
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <title>Leila Omerhodzic</title>
+
+        <style>
+
+            html, body{
+                width: 100vw;
+                height: 100vh;
+            }
+
+          
+
+            h3{
+                
+                font-family: Oswald;
+            }
+
+            p{
+                font-family: Oswald;
+            }
+            
+            h4, h5{
+                font-family: Oswald;
+                
+            }
+            
+            #leftSide{
+                display: flex;
+                background-color: #c991a2;
+                width: 100%;
+                text-align: center;
+            }
+
+            #rightSide{
+                background-color: #cf95a6;
+            }
+
+            #profilnaSlika{
+                justify-self: left;
+            }
+
+           #pozadina{
+               background-image: url("slikaZaPozadinu.jpg");
+               height: 300px;
+               width: 500px;
+            }
+
+            #meni{
+                background-image: white;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .prviP{
+                text-align: center;
+            }
+            .drugip{
+                text-align: center;
+            }
+
+            .progress{
+               width: 210px;
+               height: 20px; 
+               background: gray;
+               border-radius: 10px;
+              
+            }
+
+            .prviProgressBarDiv{
+                float: left;
+                background-color: #cf95a6;
+            }
+
+            .drugiProgressBarDiv{
+                float: left;
+                position: relative;
+                left: 50px;
+                background-color: #cf95a6;
+            }
+
+            .progressBarPunjenje1{
+                width: 80%;
+                height: 100%;
+                background: pink;
+                border-radius: 10px;
+
+            }
+
+            .progressBarPunjenje2{
+                width: 80%;
+                height: 100%;
+                background: pink;
+                border-radius: 10px;
+
+            }
+
+            .progressBarPunjenje3{
+                width: 50%;
+                height: 100%;
+                background: pink;
+                border-radius: 10px;
+
+            }
+
+            .progressBarPunjenje4{
+                width: 50%;
+                height: 100%;
+                background: pink;
+                border-radius: 10px;
+
+            }
+
+            .progressBarPunjenje5{
+                width: 50%;
+                height: 100%;
+                background: pink;
+                border-radius: 10px;
+
+            }
+
+
+            .progressBarTekst{
+                font-family: Oswald;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            #progressTekst{
+                font-family: Oswald;
+            }
+
+            .textOnImage{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            #buttonCV{
+                background-color: #f2e4d3;
+                border-radius: 50px;
+                font-family: Oswald;
+            }
+
+            .meni{
+                background-color: #c991a2;
+                overflow: hidden;
+            }
+
+            .meni a{
+                float: left;
+                color: #f2e4d3;
+                text-align: center;
+                padding: 14px 16px;
+                font-size: 17px;
+                font-family: Oswald;
+            }
+
+            .meni a:hover{
+                background-color: #cf95a6;
+                color: #f2e4d3;
+            }
+
+            .dropBar{
+                float: left;
+                overflow: hidden;
+                color: #f2e4d3;
+                font-family: Oswald;
+
+            }
+
+            .dropBar .dugmeDrop{
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: #f2e4d3;
+                padding: 14px 16px;
+                background-color: #c991a2;
+                margin: 0;
+                font-family: Oswald;
+            }
+
+            .dropBar:hover .dugmeDrop{
+                background-color: #cf95a6;
+            }
+
+            .kontekst{
+                display: none;
+                position: absolute;
+                left: 0;
+                background-color: #c991a2;
+                width: 100%;
+                z-index: 1;
+                text-decoration: none;
+                font-family: Oswald;
+            }
+
+            .kontekst a{
+                float: left;
+                color: #f2e4d3;
+                text-decoration: none;
+            }
+
+            .dropBar:hover .kontekst{
+                display: block;
+            }
+
+
+        </style>
+
+
+    </head>
+
+
+    <body>
+
+        <div class="meni">
+
+            <a href="leilaOmerhodzicResumeWebpageHour8.html">Home</a>
+
+            <div class="dropBar">
+               <a href="sposobnosti.html">Sposobnosti</a>
+            </div>
+
+            <a href="edukacija.html">Edukacija</a>
+
+            <div class="dropBar">
+                <button class="dugmeDrop">Kontakt</button>
+                <div class="kontekst">
+                    <a href="socijalneMreze.html">socijalne mreze</a>
+                    <a href="infoOMeni.html">info o meni</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="meni"><img src="officeImage.jpg" alt="picture of an office">
+        <div class="textOnImage"><h3>Leila Omerhodzic</h3>
+            <h4>Broj telefona: +387 62 281 071 <br>
+                E-mail adresa: leila.omerhodzic0404@gmail.com <br>
+                Adresa: Dr. Mustafe Mujbegovic 33</div></div>
+
+    <div id="fullPage">
+
+
+
+        <div id="leftSide">
+
+            
+            </h4>
+            <img id="profilnaSlika" src="CV.jpg" alt="Proffesional photo" width="120px" height="170px"></img>
+
+
+        </div>
+
+    
+
+        
+        
+        <div id="rightSide">
+
+            <h3>Pogledajte CV u PDF formatu:  </h3>
+            <a href="CV.pdf" download="CV.pdf" target="__blank">
+                <button id="buttonCV">Leila Omerhodzic CV</button>
+            </a>
+            
+
+
+            <h3>O meni</h3>
+            <p class="prviP">
+                Nakon skolovanja u JUMS Elektrotehnickoj skoli u Tuzli sam upisala visoku skolu racunarstva
+                i informatike eMPIRICOM u Tuzli. Uvijek sam se trudila da pridonesem
+                sto sam vise mogla u skoli, na fakultetu. Uvijek sam se prikljucivala
+                vannastavnim aktivnostima i sekcijama. <br>
+                Za sebe mogu reci da sam jako komunikativna i volim biti u 
+                velikim grupama ljudi. Volim timski rad i smatram da mogu doprinijeti
+                jako puno u grupi u kojoj se nalazim. <br>
+                Smatram, a i mnogi mogu potvrditi, da sam jako vrijedna,
+                motivisana i ustrajna u onome sto radim. 
+        </p>
+        <p class="drugip">
+        Za dobrobit kompanije u kojoj se nalazim, u kojoj radim, sam spremna
+        dati sve od sebe. Moje slobodno vrijeme sam spremna uloziti u vasu 
+        firmu jer vasa buducnost je i moja buducnost! <br>
+        Jedna od mojih prednosti za koju smatram da je velika dobrobit jeste
+        sto ljude sa kojima radim smatram porodicom. A ono sto bi vi uradili
+        za porodicu ja bi uradila za Vas.
+        </p>
+
+
+            <h3>Edukacija</h3>
+                
+            <p>
+                <h5>2016 - 2020 <br>
+                JUMS Elektrotehnicka skola Tuzla</h5>
+                <h5>2020 - 2024 <br>
+                Visoka skola racunarstva i informatike eMPIRICOM Tuzla</h5>
+
+                
+            </p>
+
+            <h3>Sposobnosti: </h3></div>
+            <div class="prviProgressBarDiv">
+            
+            <h4>Engleski jezik</h4>
+            <span id="progressTekst">Govor: </span>
+            <div class="progress">
+                
+                <div class="progressBarPunjenje1">
+                <span class="progressBarTekst">80%</span>
+                </div></div>  
+                
+                <span id="progressTekst">Pisanje:</span>
+            <div class="progress">
+                    <div class="progressBarPunjenje2">
+                    <span class="progressBarTekst">80%</span>
+                    </div></div> 
+
+
+            <h4>Njemacki jezik</h4>
+                 <span id="progressTekst">Govor:</span>
+            <div class="progress">
+                        <div class="progressBarPunjenje3">
+                        <span class="progressBarTekst">50%</span>
+                        </div></div>  
+
+                <span id="progressTekst">Pisanje:</span>
+                <div class="progress">
+                        <div class="progressBarPunjenje4">
+                        <span class="progressBarTekst">50%</span>
+                        </div></div>
+
+</div>
+                 
+<div class="drugiProgressBarDiv">
+
+    <h4>C++</h4>
+    <span id="progressTekst">OOP</span>
+    <div class="progress">
+        <div class="progressBarPunjenje5">
+        <span class="progressBarTekst">25%</span>
+        </div></div>
+        
+        <span id="progressTekst">MySql</span>
+        <div class="progress">
+            <div class="progressBarPunjenje5">
+            <span class="progressBarTekst">25%</span>
+            </div></div> 
+
+        <h4>Web Programming</h4>
+        <span id="progressTekst">HTML</span>
+        <div class="progress">
+            <div class="progressBarPunjenje5">
+            <span class="progressBarTekst">25%</span>
+            </div></div> 
+            
+            <span id="progressTekst">CSS</span>
+            <div class="progress">
+                <div class="progressBarPunjenje5">
+                <span class="progressBarTekst">25%</span>
+                </div></div> 
+            
+</div>
+
+
+    <footer><h3>Socijalne mreze: </h3>Instagram: @instagram <br>
+        Facebook: Ime Prezime <br>
+        LinkedIn: LinkedIn </footer>
+        
+   
+    </body>
+
+    
+</html>
